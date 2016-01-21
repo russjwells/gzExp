@@ -80,7 +80,7 @@
 	-webkit-border-radius: 35px 35px 35px 35px;
 }
 #MissionSection{
-	background-image: url("zooentrance.png");
+	background-image: url("../img/about/zooentrance.png");
 	background-size: cover;
 	background-position: center center;
 
@@ -106,7 +106,7 @@
 	border:1px solid black; 
 }*/
 canvas { 
-	background:url(hamingja.png);
+	background:url(../img/about/hamingja.png);
 	background-size: cover;
 	float: left;
 }

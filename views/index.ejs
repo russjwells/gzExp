@@ -4,7 +4,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 	 	<script src="/app/angularApp.js"></script>
-	 	<base href="/">
+	 	<!--<base href="/">-->
 
 	 	<script src="/app/components/about/aboutController.js"></script>
 	 	<script src="/app/components/journeylogs/journeylogsController.js"></script>
@@ -15,12 +15,16 @@
 	 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 	 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 	 	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+
+
 	 	<script src="assets/js/header.js"></script>
+	 	<!--<script src="assets/js/about.js"></script>-->
+
 		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
 	</head>
-	<body ng-app="gzExp" ng-controller="MainCtrl">
+	<body ng-app="gzExp" >
 		<header>
-			<div id="siteTitle"><a href="index.html"><img src="assets/img/g/gztitle_long.png" /></a></div>
+			<div id="siteTitle"><a ui-sref="landing"><img src="assets/img/g/gztitle_long.png" /></a></div>
 		</header>
 		<nav id="navMark">
 			<div id="responsiveNav">

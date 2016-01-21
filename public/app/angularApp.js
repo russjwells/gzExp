@@ -27,12 +27,12 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    .state('yggdrasil', {
 	    	url: '/yggdrasil',
 	    	templateUrl: 'app/components/yggdrasil/yggdrasilView.html',
-	    	controller: '/components/yggdrasil/yggdrasilController.js'
+	    	controller: '/YggdrasilCtrl'
 	    })
 	    .state('journeylogs', {
 	    	url: '/journeylogs',
 	    	templateUrl: 'app/components/journeylogs/journeylogsView.html',
-	    	controller: '/components/journeylogs/journeylogsController.js'
+	    	controller: 'JourneyLogsCtrl'
 	    })
 	    .state('login', {
 	    	url: '/login',
@@ -55,11 +55,11 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    	}]
 	    });
 
-	$urlRouterProvider.otherwise('main');
-	$locationProvider.html5Mode(true);
+	$urlRouterProvider.otherwise('landing');
+	//$locationProvider.html5Mode(true);
 
 }]);
-
+/*
 app.controller('MainCtrl', [
 '$scope',
 function($scope){
@@ -75,7 +75,7 @@ function($scope){
   $scope.test = "Landing World";
 
 }]);
-
+*/
 app.controller('AuthCtrl', [
 	'$scope',
 	'$state',
