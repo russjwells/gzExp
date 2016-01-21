@@ -1,0 +1,133 @@
+@charset UTF-8;
+
+#yggMain{
+	width: 1280px;
+	margin: 0 auto;
+	float: none;
+	border-right: 1px solid rgba(255,255,255,0.50);
+	border-left: 1px solid rgba(255,255,255,0.50);
+}
+#yggpic{
+	margin: 0px auto;
+	background-image: url("ygg.png");
+	/*float: left;*/
+	clear: both;
+	width: 800px;
+	height: 450px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: none;
+}
+
+
+#yggMenu{
+	width: 100%;
+	float: left;
+}
+.yggMenuItem{
+	width: 800px;
+	clear: both;
+	height: 132px;
+	margin: 30px auto;
+}
+.yggMenuItem a:link, .yggMenuItem  a:active, .yggMenuItem a:visited, .yggMenuItem a:hover{
+	color: white;
+	text-decoration: none;
+}
+.glow:hover{
+	background: rgba(60,249,255,0.14);
+	border: 2px solid rgba(60,249,255,0.45);
+}
+.glow{
+	background: rgba(60,249,255,0.04);
+	border: 2px solid rgba(60,249,255,0.2);
+}
+
+h2{
+	font-size: 30px;
+}
+.interiorHeroImg{
+	border: 2px solid rgba(60,249,255,0.45);
+}
+.schematicholder{
+	border: 2px solid rgba(60,249,255,0.45);
+	margin: 10 auto;
+	width: 800px;
+}
+.glowContainer{
+	background: rgba(60,249,255,0.14);
+	/* Sketch doesnt export pattern fills at this point */
+	border: 2px solid rgba(60,249,255,0.45);
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+}
+#yggDescription{
+	padding: 30px;
+	width: 60%;
+	margin: 0 auto;
+	clear: both;
+	/*float: left;*/
+}
+#yggCaption{
+	width: 30%;
+	position: relative;
+	top: 320px;
+	left: 600px;
+}
+.ymiText{
+	width: 200px;
+	float: left;
+	height: 100%;
+	font-family: "PT Sans Narrow", sans-serif;
+}
+.ymiTitle{
+	width: 100%;
+	font-weight: 700;
+	font-size: 28px;
+	padding: 10;
+	text-transform: capitalize;
+
+}
+.ymiDesc{
+	width: 100%;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 10;
+}
+.ymiPics{
+	width: auto;
+	float: left;
+}
+.ymiPics img{
+	float: left;
+	margin: 15 10;
+	border: 1px solid rgba(60,249,255,0.45);
+}
+.ymiPics li{
+	float: left;
+}
+.ymiRightArrow{
+	width: 55px;
+	background-color: green;
+	float: right;
+	background: url("rightarrow.png");
+	height: 107px;
+	margin: 11 10;
+	background-repeat: none;
+	background-position: center center;
+}
+.interiorDescription{
+	padding: 30px;
+	width: 40%;
+	margin: 20 auto;
+	clear: both;
+}
+.interiorHeroImg{
+	width: 800px;
+	margin: 30px auto;
+}
+.ucontent{
+	padding-bottom: 100px;
+	border: 1px solid rgba(60,249,255,0.45);
+}

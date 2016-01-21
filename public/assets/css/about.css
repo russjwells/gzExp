@@ -1,0 +1,112 @@
+@charset UTF-8;
+
+#HistorySection{
+	margin: 0px auto;
+	width: 1280px;
+	height: 700px;
+	float: none;
+	border-right: 1px solid rgba(255, 255, 255, 0.50);
+	border-left: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+#ZooHistory p{
+	/* The galactic zoo was: */
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+#ZooHistory{
+	width: 630px;
+	padding: 20px;
+	margin: 20px 70px;
+	float: left;
+
+		/* glow container: */
+	background: rgba(60,249,255,0.14);
+	/* Sketch doesnt export pattern fills at this point */
+	border: 2px solid rgba(60,249,255,0.45);
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+}
+
+#LittleHamingja{
+	float: left;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.spacer{
+	width: 10%;
+	float: left;
+	height: 400px;
+}
+
+#HamingjaSection{
+	margin: 0px auto;
+	width: 1280px;
+	min-height: 800px;
+	float: none;
+	border-right: 1px solid rgba(255, 255, 255, 0.50);
+	border-left: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+#ExploreHamingja{
+	width: 1280px;
+	height: 641px;
+	/*margin: 60px auto;*/
+}
+
+#ExploreHamingja img{
+	max-width: 640;
+    height: 640;
+    width: auto\9; /* ie8 */
+    float: left;
+    margin: 0px auto;
+}
+#ExploreHamingjaInfoDisplay{
+	float: left;
+    background: rgba(60,249,255,0.14);
+    border: 2px solid rgba(60,249,255,0.45);
+    padding: 20px;
+    padding-left: 330px;
+    width: 500px;
+    margin-left: -300px;
+    line-height: 24px;
+
+    border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+}
+#MissionSection{
+	background-image: url("zooentrance.png");
+	background-size: cover;
+	background-position: center center;
+
+	border-color: #3D9299;
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+#MissionHolder{
+	background: rgba(0,0,0,0.7);
+	width: 40%;
+	margin: 60px auto;
+	padding: 40px;
+	margin: 100px auto;
+	line-height: 26px;
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 2px solid #3D9299;
+}
+/*canvas, img { 
+	display:block; 
+	margin:1em auto; 
+	border:1px solid black; 
+}*/
+canvas { 
+	background:url(hamingja.png);
+	background-size: cover;
+	float: left;
+}
