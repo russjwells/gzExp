@@ -27,7 +27,7 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    .state('yggdrasil', {
 	    	url: '/yggdrasil',
 	    	templateUrl: 'app/components/yggdrasil/yggdrasilView.html',
-	    	controller: '/YggdrasilCtrl'
+	    	controller: 'YggdrasilCtrl'
 	    })
 	    .state('journeylogs', {
 	    	url: '/journeylogs',
