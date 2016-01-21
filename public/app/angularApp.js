@@ -25,12 +25,12 @@ function($stateProvider, $urlRouterProvider) {
 	    })
 	    .state('yggdrasil', {
 	    	url: '/yggdrasil',
-	    	templateUrl: '/components/yggdrasil/yggdrasilView.html',
+	    	templateUrl: 'app/components/yggdrasil/yggdrasilView.html',
 	    	controller: '/components/yggdrasil/yggdrasilController.js'
 	    })
 	    .state('journeylogs', {
 	    	url: '/journeylogs',
-	    	templateUrl: '/components/journeylogs/journeylogsView.html',
+	    	templateUrl: 'app/components/journeylogs/journeylogsView.html',
 	    	controller: '/components/journeylogs/journeylogsController.js'
 	    })
 	    .state('login', {
