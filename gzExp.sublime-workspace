@@ -1,0 +1,477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"log",
+				"logOut"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"lo",
+				"logIn"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"get",
+				"getToken"
+			],
+			[
+				"a",
+				"auth"
+			],
+			[
+				"flapper",
+				"flapper-news-token"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"pass",
+				"passport"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"up",
+				"upvoteComment"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"c",
+				"comment"
+			],
+			[
+				"commen",
+				"comment"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"s",
+				"stateParams"
+			],
+			[
+				"upv",
+				"upvotes"
+			],
+			[
+				"state",
+				"stateParams"
+			],
+			[
+				"o",
+				"offset"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"b",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"scr",
+				"scrollBottom"
+			],
+			[
+				"San",
+				"sans-serif"
+			],
+			[
+				"Sans",
+				"Sans"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border-bott",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Sec",
+				"section	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"pa",
+				"parse"
+			],
+			[
+				"flapp",
+				"flapper-news-token"
+			],
+			[
+				"auth",
+				"auth"
+			],
+			[
+				"mo",
+				"model"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"pu",
+				"push"
+			],
+			[
+				"add",
+				"addComment"
+			],
+			[
+				"stat",
+				"stateParams"
+			],
+			[
+				"posts",
+				"posts"
+			],
+			[
+				"Pos",
+				"PostSchema"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Com",
+				"CommentSchema"
+			],
+			[
+				"src",
+				"srcThumb"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/russ/Documents/Development/ngGZ/app/components/about/aboutController.js",
+		"/Users/russ/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/russ/Documents/Development/ngGZ/angularApp.js",
+		"/Users/russ/Documents/Development/ngGZ/view1.html",
+		"/Users/russ/Library/Application Support/Sublime Text 2/Packages/User/AngularJS.sublime-settings",
+		"/Users/russ/Documents/Development/flappernews/flapper-news/config/passport.js",
+		"/Users/russ/Documents/Development/flappernews/flapper-news/public/javascripts/app.js",
+		"/Users/russ/Documents/Development/flappernews/flapper-news/public/javascripts/angularApp.js",
+		"/Users/russ/Documents/Development/flappernews/flapper-news/views/index.ejs",
+		"/Users/russ/Documents/Development/flappernews/app.js",
+		"/Users/russ/Documents/Development/flappernews/flapper-news/npm-debug.log",
+		"/Users/russ/Documents/Development/flappernews/index.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/interiors/bridge.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/capabilities.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/schematics.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/interiors.html",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/interiors/unityplayer.css",
+		"/Users/russ/Documents/Development/GalacticZooExp/yggdrasil/interiors/unityplayer.js",
+		"/Users/russ/Documents/Development/GalacticZooExp/g/script/main.js",
+		"/Users/russ/Sites/flapper-news/routes/index.js",
+		"/Users/russ/Sites/flapper-news/views/index.ejs",
+		"/Users/russ/Sites/flapper-news/models/Comments.js",
+		"/Users/russ/Sites/flapper-news/app.js",
+		"/Users/russ/Sites/flapper-news/models/Users.js",
+		"/Users/russ/Sites/flapper-news/public/javascripts/angularApp.js",
+		"/Users/russ/Sites/flapper-news/config/passport.js",
+		"/Users/russ/Sites/flapper-news/routes/users.js",
+		"/Users/russ/Sites/flapper-news/models/posts.js",
+		"/Users/russ/Sites/flapper-news/models/comments.js",
+		"/Users/russ/Sites/flapper-news/models/Posts.js",
+		"/Users/russ/Documents/Design/papernative/web/papernativelist.php",
+		"/Users/russ/Desktop/index.html",
+		"/Users/russ/Sites/russdigital.com/web/index.html",
+		"/Users/russ/Sites/bryan/new web/web/g/main.css",
+		"/Users/russ/Sites/pn/phpinfo.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stob",
+			"$window.",
+			"req",
+			"req, res",
+			"getAll",
+			"caption",
+			"centerImg",
+			"topbar",
+			"red",
+			"hr",
+			"router.post",
+			"170",
+			"anchor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true
+}
