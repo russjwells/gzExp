@@ -4,6 +4,13 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 	 	<script src="/app/angularApp.js"></script>
+	 	<base href="/">
+
+	 	<script src="/app/components/about/aboutController.js"></script>
+	 	<script src="/app/components/journeylogs/journeylogsController.js"></script>
+	 	<script src="/app/components/yggdrasil/yggdrasilController.js"></script>
+	 	<script src="/app/components/landing/landingController.js"></script>
+
 	 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 	 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|Lato:400,700,900,300' rel='stylesheet' type='text/css'>
@@ -21,7 +28,7 @@
 				<a ui-sref="about"><div class="navButton navOn">ABOUT THE ZOO</div></a>
 				<!--<a href="yggdrasil.html"><div class="navButton">YGGDRASIL</div></a>-->
 				<a ui-sref="yggdrasil"><div class="navButton">YGGDRASIL</div></a>
-				<div class="navButton">JOURNEY LOGS</div>
+				<a ui-sref="journeylogs"><div class="navButton">JOURNEY LOGS</div></a>
 				<div class="navButton">REAL SCIENCE</div>
 				<div class="navButton">SHOP THE ZOO</div>
 			</div>

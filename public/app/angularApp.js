@@ -3,7 +3,8 @@ var app = angular.module('gzExp', ['ui.router']);
 app.config([
 '$stateProvider',
 '$urlRouterProvider',
-function($stateProvider, $urlRouterProvider) {
+'$locationProvider',
+function($stateProvider, $urlRouterProvider, $locationProvider) {
 
 	$stateProvider
 		.state('landing', {
@@ -55,6 +56,7 @@ function($stateProvider, $urlRouterProvider) {
 	    });
 
 	$urlRouterProvider.otherwise('main');
+	$locationProvider.html5Mode(true);
 
 }]);
 
