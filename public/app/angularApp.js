@@ -8,8 +8,9 @@ function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state('landing', {
 			url: '/',
-			templateUrl: '/components/landing/landingView.html',
-			controller: '/components/landing/landingController.js'
+			templateUrl: 'app/components/landing/landingView.html',
+			controller: 'LandingCtrl',
+			controllerUrl: 'app/components/landing/landingController.js'
 		})
 	    .state('main', {
 	      url: '/main',
@@ -18,8 +19,9 @@ function($stateProvider, $urlRouterProvider) {
 	    })
 	    .state('about', {
 	    	url: '/about',
-	    	templateUrl: '/components/about/aboutView.html',
-	    	controller: '/components/about/aboutController.js'
+	    	templateUrl: 'app/components/about/aboutView.html',
+	    	controller: 'AboutCtrl',
+	    	controllerUrl: 'app/components/about/aboutController.js'
 	    })
 	    .state('yggdrasil', {
 	    	url: '/yggdrasil',
@@ -60,7 +62,15 @@ app.controller('MainCtrl', [
 '$scope',
 function($scope){
 
-  $scope.test = "Hello World";
+  $scope.test = "Main World";
+
+}]);
+
+app.controller('LandingCtrl', [
+'$scope',
+function($scope){
+
+  $scope.test = "Landing World";
 
 }]);
 
