@@ -9,7 +9,7 @@
 }
 #yggpic{
 	margin: 0px auto;
-	background-image: url("ygg.png");
+	background-image: url("../img/yggdrasil/ygg.png");
 	/*float: left;*/
 	clear: both;
 	width: 800px;
@@ -111,7 +111,7 @@ h2{
 	width: 55px;
 	background-color: green;
 	float: right;
-	background: url("rightarrow.png");
+	background: url("../img/yggdrasil/rightarrow.png");
 	height: 107px;
 	margin: 11 10;
 	background-repeat: none;
