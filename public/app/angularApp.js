@@ -64,7 +64,7 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    	}]
 	    });
 
-	$urlRouterProvider.otherwise('root.landing');
+	$urlRouterProvider.otherwise('/');
 	$locationProvider.html5Mode(true);
 
 }]);
