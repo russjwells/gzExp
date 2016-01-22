@@ -7,75 +7,76 @@ app.config([
 function($stateProvider, $urlRouterProvider, $locationProvider) {
 
 	$stateProvider
-		.state('landing', {
+		.state('root', {
+			abstract: true,
+			views: {
+				"": {
+					controller: 'RootCtrl',
+					templateUrl: 'app/shared/rootView.html'
+				},
+			},
+		})
+		.state('root.landing', {
 			url: '/',
 			templateUrl: 'app/components/landing/landingView.html',
 			controller: 'LandingCtrl',
 			controllerUrl: 'app/components/landing/landingController.js'
 		})
-	    .state('main', {
-	      url: '/main',
-	      templateUrl: '/main.html',
+	    .state('root.main', {
+	      abstract: true,
+	      templateUrl: 'app/shared/mainView.html',
 	      controller: 'MainCtrl'
 	    })
-	    .state('about', {
+	    .state('root.main.about', {
 	    	url: '/about',
 	    	templateUrl: 'app/components/about/aboutView.html',
 	    	controller: 'AboutCtrl',
 	    	controllerUrl: 'app/components/about/aboutController.js'
 	    })
-	    .state('yggdrasil', {
+	    .state('root.main.yggdrasil', {
 	    	url: '/yggdrasil',
 	    	templateUrl: 'app/components/yggdrasil/yggdrasilView.html',
 	    	controller: 'YggdrasilCtrl'
 	    })
-	    .state('journeylogs', {
+	    .state('root.main.journeylogs', {
 	    	url: '/journeylogs',
 	    	templateUrl: 'app/components/journeylogs/journeylogsView.html',
 	    	controller: 'JourneyLogsCtrl'
 	    })
-	    .state('login', {
+	    .state('root.login', {
 	    	url: '/login',
 	    	templateUrl: '/login.html',
 	    	controller: 'AuthCtrl',
 	    	onEnter: ['$state', 'auth', function($state, auth) {
 	    		if (auth.isLoggedIn()) {
-	    			$state.go('main');
+	    			$state.go('root.main.about');
 	    		}
 	    	}]
 	    })
-	    .state('register', {
+	    .state('root.register', {
 	    	url: '/register',
 	    	templateUrl: '/register.html',
 	    	controller: 'AuthCtrl',
 	    	onEnter: ['$state', 'auth', function($state, auth) {
 	    		if (auth.isLoggedIn()) {
-	    			$state.go('main');
+	    			$state.go('root.main.about');
 	    		}
 	    	}]
 	    });
 
-	$urlRouterProvider.otherwise('landing');
+	$urlRouterProvider.otherwise('root.landing');
 	$locationProvider.html5Mode(true);
 
 }]);
-/*
-app.controller('MainCtrl', [
+
+app.controller('RootCtrl', [
 '$scope',
 function($scope){
 
-  $scope.test = "Main World";
+  $scope.test = "Root World";
 
 }]);
 
-app.controller('LandingCtrl', [
-'$scope',
-function($scope){
-
-  $scope.test = "Landing World";
-
-}]);
-*/
 app.controller('AuthCtrl', [
 	'$scope',
 	'$state',
