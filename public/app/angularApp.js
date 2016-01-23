@@ -54,9 +54,30 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    	controller: 'SchematicsCtrl'
 	    })
 	    .state('root.main.yggdrasil.interiors', {
+	    	abstract: true,
 	    	url: '/interiors',
 	    	templateUrl: 'app/components/yggdrasil/interiors/interiorsView.html',
 	    	controller: 'InteriorsCtrl'
+	    })
+	    .state('root.main.yggdrasil.interiors.menu', {
+	    	url: '',
+	    	templateUrl: 'app/components/yggdrasil/interiors/menuView.html',
+	    	controller: 'InteriorsCtrl'
+	    })
+	    .state('root.main.yggdrasil.interiors.observatory', {
+	    	url: '/observatory',
+	    	templateUrl: 'app/components/yggdrasil/interiors/observatory/observatoryView.html',
+	    	controller: 'ObservatoryCtrl'
+	    })
+	    .state('root.main.yggdrasil.interiors.bridge', {
+	    	url: '/bridge',
+	    	templateUrl: 'app/components/yggdrasil/interiors/bridge/bridgeView.html',
+	    	controller: 'BridgeCtrl'
+	    })
+	    .state('root.main.yggdrasil.interiors.aquaticholdingtank', {
+	    	url: '/aquaticholdingtank',
+	    	templateUrl: 'app/components/yggdrasil/interiors/aquaticholdingtank/aquaticholdingtankView.html',
+	    	controller: 'AquaticHoldingTankCtrl'
 	    })
 	    .state('root.main.journeylogs', {
 	    	url: '/journeylogs',
