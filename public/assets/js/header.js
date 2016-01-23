@@ -19,7 +19,7 @@ $(document).ready(function () {
 	            //$("#indexLink").removeClass('indexLinkSmaller');
 	        }
 	        if(scroll >= scrollBottom){
-	        	alert("scrollBottom");
+	        	//alert("scrollBottom");
 	        }
 	    });
 });

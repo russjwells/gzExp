@@ -28,6 +28,36 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/ygg.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/front.css">
+
+		<script type="text/javascript">
+		<!--
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+		    unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text/javascript" src="' + unityObjectUrl + '"></script>');
+		-->
+		</script>
+		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 1280, 
+				height: 720,
+				params: { enableDebugging:"1" }
+				
+			};
+			var u = new UnityObject2(config);
+			
+			
+
+			
+			u.initPlugin(jQuery("#unityPlayer")[0], "assets/unity/GZ_Observatory_Web.unity3d");
+			
+		-->
+		</script>
+
+
+
 	</head>
 	<body ng-app="gzExp" >
 		<ui-view></ui-view>
