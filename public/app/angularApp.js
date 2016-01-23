@@ -34,9 +34,29 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    	controllerUrl: 'app/components/about/aboutController.js'
 	    })
 	    .state('root.main.yggdrasil', {
+	    	abstract: true,
 	    	url: '/yggdrasil',
 	    	templateUrl: 'app/components/yggdrasil/yggdrasilView.html',
 	    	controller: 'YggdrasilCtrl'
+	    })
+	    .state('root.main.yggdrasil.ship', {
+	    	url: '',
+	    	templateUrl: 'app/components/yggdrasil/shipView.html'
+	    })
+	    .state('root.main.yggdrasil.capabilities', {
+	    	url: '/capabilities',
+	    	templateUrl: 'app/components/yggdrasil/capabilities/capabilitiesView.html',
+	    	controller: 'CapabilitiesCtrl'
+	    })
+	    .state('root.main.yggdrasil.schematics', {
+	    	url: '/schematics',
+	    	templateUrl: 'app/components/yggdrasil/schematics/schematicsView.html',
+	    	controller: 'SchematicsCtrl'
+	    })
+	    .state('root.main.yggdrasil.interiors', {
+	    	url: '/interiors',
+	    	templateUrl: 'app/components/yggdrasil/interiors/interiorsView.html',
+	    	controller: 'InteriorsCtrl'
 	    })
 	    .state('root.main.journeylogs', {
 	    	url: '/journeylogs',
