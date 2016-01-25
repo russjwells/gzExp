@@ -59,13 +59,13 @@
 	font-size: 42px;
 	text-align: center;
 	color: white;
-	font-family: "Agency FB";
+	font-family: "myriad-pro";
 }
 #zooIntro p{
 	font-size: 18px;
 	text-align: center;
 	color: white;
-	font-family: "PT Sans";
+	font-family: "myriad-pro";
 	width: 390px;
 	margin: 20px auto;
 	line-height: 26px;
@@ -87,7 +87,7 @@
 	font-size: 30px;
 	text-align: center;
 	color: white;
-	font-family: "PT Sans", sans-serif;
+	font-family: "myriad-pro", sans-serif;
 	font-weight: 400;
 	margin: 30 0;
 	text-shadow: -2px -4px 3px #000000;
