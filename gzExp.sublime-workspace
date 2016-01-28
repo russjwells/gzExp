@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"ab",
+				"abstract"
+			],
+			[
+				"c",
+				"components"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"Root",
+				"RootCtrl"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"land",
+				"landingView"
+			],
+			[
+				"$lo",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"$locatio",
+				"$locationProvider	AngularJS(DI)"
+			],
+			[
+				"a",
+				"app"
+			],
+			[
 				"te",
 				"templateUrl"
 			],
@@ -44,10 +80,6 @@
 				"getToken"
 			],
 			[
-				"a",
-				"auth"
-			],
-			[
 				"flapper",
 				"flapper-news-token"
 			],
@@ -77,10 +109,6 @@
 			],
 			[
 				"comm",
-				"comment"
-			],
-			[
-				"c",
 				"comment"
 			],
 			[
@@ -184,10 +212,6 @@
 				"color"
 			],
 			[
-				"v",
-				"vertical-align"
-			],
-			[
 				"backgr",
 				"background-color"
 			],
@@ -283,6 +307,158 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/angularApp.js",
+			"settings":
+			{
+				"buffer_size": 4040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/js/header.js",
+			"settings":
+			{
+				"buffer_size": 897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/landing/landingView.html",
+			"settings":
+			{
+				"buffer_size": 1526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/landing/landingController.js",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/about/aboutView.html",
+			"settings":
+			{
+				"buffer_size": 4256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/about/aboutController.js",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/journeylogs/journeylogsView.html",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/journeylogs/journeylogsController.js",
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 2765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/yggdrasil/shipView.html",
+			"settings":
+			{
+				"buffer_size": 2472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/yggdrasil/interiors/observatory/observatoryView.html",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/yggdrasil/interiors/menuView.html",
+			"settings":
+			{
+				"buffer_size": 949,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/shared/headerView.html",
+			"settings":
+			{
+				"buffer_size": 734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/components/yggdrasil/interiors/interiorsView.html",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/ygg.css",
+			"settings":
+			{
+				"buffer_size": 2350,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/front.css",
+			"settings":
+			{
+				"buffer_size": 1629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/global.css",
+			"settings":
+			{
+				"buffer_size": 4789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/about.css",
+			"settings":
+			{
+				"buffer_size": 2274,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -316,6 +492,23 @@
 	},
 	"file_history":
 	[
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/interiors/observatory/observatoryController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/yggdrasilController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/yggdrasilView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/schematics/schematicsController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/schematics/schematicsView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/interiors/interiorsController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/interiors/interiorsView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/capabilities/capabilitiesController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/capabilities/capabilitiesView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/headerView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/footerView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/rootView.html",
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/mainController.js",
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/mainView.html",
+		"/Users/russ/Documents/Development/ngGZ/app/components/about/aboutView.html",
+		"/Users/russ/Documents/Development/gzExp/public/javascripts/angularApp.js",
+		"/Users/russ/Documents/Development/gzExp/views/index.ejs",
 		"/Users/russ/Documents/Development/ngGZ/app/components/about/aboutController.js",
 		"/Users/russ/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/russ/Documents/Development/ngGZ/angularApp.js",
@@ -399,13 +592,524 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/app/angularApp.js",
+					"settings":
+					{
+						"buffer_size": 4040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2060,
+								2060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 634.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/assets/js/header.js",
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/app/components/landing/landingView.html",
+					"settings":
+					{
+						"buffer_size": 1526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								633,
+								633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/app/components/landing/landingController.js",
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/app/components/about/aboutView.html",
+					"settings":
+					{
+						"buffer_size": 4256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3267,
+								3267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 658.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/app/components/about/aboutController.js",
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/app/components/journeylogs/journeylogsView.html",
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/app/components/journeylogs/journeylogsController.js",
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 9,
+					"file": "views/index.ejs",
+					"settings":
+					{
+						"buffer_size": 2765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/app/components/yggdrasil/shipView.html",
+					"settings":
+					{
+						"buffer_size": 2472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1987,
+								1987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 931.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/app/components/yggdrasil/interiors/observatory/observatoryView.html",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/app/components/yggdrasil/interiors/menuView.html",
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "public/app/shared/headerView.html",
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "public/app/components/yggdrasil/interiors/interiorsView.html",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "public/assets/css/ygg.css",
+					"settings":
+					{
+						"buffer_size": 2350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "public/assets/css/front.css",
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "public/assets/css/global.css",
+					"settings":
+					{
+						"buffer_size": 4789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4502,
+								4502
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3609.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "public/assets/css/about.css",
+					"settings":
+					{
+						"buffer_size": 2274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -442,7 +1146,7 @@
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.427349660084,
 			1.0
 		]
 	},
