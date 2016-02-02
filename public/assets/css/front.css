@@ -1,12 +1,11 @@
 @charset UTF-8;
 
 #landing{
-	padding-top: 100px;
-	padding-bottom: 100px;
 	background-color: black;
 	background-image: url(../img/g/spacebackground.png);
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
 #landingShadow{
 	width: 100%;
@@ -23,50 +22,85 @@
 	margin: 1% 15%;
 }
 #titletype{
-	margin: 0px auto;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;*/
 }
 #titletype img{
-	max-width: 100%;
-	height: auto;
-	width: auto; /* For IE8 */
+  width: 70%;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  margin: auto;
 }
-
+#welcomeText{
+  width: 70%;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  margin: auto;
+}
+#placeText{
+  width: 70%;
+  display: block;
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 #downArrow{
+	display: block;
+	position: absolute;
 	width: 77px;
 	height: 53px;
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	bottom: 50px;
+	left:0;
+	right:0;
 }
 #downArrow:hover{
 	width: 77px;
 	height: 53px;
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	bottom: 50px;
+	left:0;
+	right:0;
+}
 }
 
 #zooIntro{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 00px;
+	padding-bottom: 00px;
 	margin: 0px auto;
-	width: 1280px;
 	float: none;
 	border-right: 1px solid rgba(255, 255, 255, 0.50);
 	border-left: 1px solid rgba(255, 255, 255, 0.50);
 }
 #zooIntro h1{
-	font-size: 42px;
+	font-size: 50px;
 	text-align: center;
 	color: white;
 	font-family: "myriad-pro";
+}
+#zooIntro h2{
+	font-size: 24px;
+	text-align: center;
+	color: #2B9EC4;
+	font-family: "myriad-pro";
+	width: 70%;
+	margin: auto;
 }
 #zooIntro p{
 	font-size: 18px;
 	text-align: center;
 	color: white;
 	font-family: "myriad-pro";
-	width: 390px;
+	width: 60%;
 	margin: 20px auto;
 	line-height: 26px;
 	font-weight: 200;
@@ -89,7 +123,7 @@
 	color: white;
 	font-family: "myriad-pro", sans-serif;
 	font-weight: 400;
-	margin: 30 0;
+	margin: 0 0;
 	text-shadow: -2px -4px 3px #000000;
 }
 .specialCopy{

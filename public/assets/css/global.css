@@ -16,7 +16,6 @@ header{
 	overflow: hidden;
 }
 h1{
-	font-family: "myriad-pro";
 	font-size: 42px;
 	color: #FFFDF8;
 	line-height: 50px;
@@ -27,11 +26,8 @@ h1{
 	width: 100%;
 }
 h2{
-	font-family: "myriad-pro", sans-serif;
 	font-weight: 400;
-	text-transform: uppercase;
 	text-align: center;
-	margin: 10 0;
 }
 p{
 	/*float: left;*/
