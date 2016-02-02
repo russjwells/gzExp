@@ -93,6 +93,7 @@
 	color: #2B9EC4;
 	font-family: "myriad-pro";
 	width: 70%;
+	max-width: 602px;
 	margin: auto;
 }
 #zooIntro p{
@@ -101,6 +102,7 @@
 	color: white;
 	font-family: "myriad-pro";
 	width: 60%;
+	max-width: 503px;
 	margin: 20px auto;
 	line-height: 26px;
 	font-weight: 200;
