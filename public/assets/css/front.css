@@ -32,7 +32,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 100;
   margin: auto;
 }
 #welcomeText{
@@ -80,12 +80,14 @@
 	float: none;
 	border-right: 1px solid rgba(255, 255, 255, 0.50);
 	border-left: 1px solid rgba(255, 255, 255, 0.50);
+	position: relative;
 }
 #zooIntro h1{
 	font-size: 50px;
 	text-align: center;
 	color: white;
 	font-family: "myriad-pro";
+	margin-bottom: 10px;
 }
 #zooIntro h2{
 	font-size: 24px;
@@ -109,13 +111,22 @@
 }
 
 #gzBadge{
-	width: 318px;
-	height: 287px;
-	margin: 30px auto;
+	max-width: 318px;
+	max-height: 287px;
+	margin: auto;
+	margin-top: 10px;
+}
+#gzBadge img{
+  width: auto;
+  height: auto;
+  display: block;
+  max-width: 318px;
+  max-height: 218px;
+  margin: auto;
 }
 #exploreBtn{
 	width: 300px;
-	margin: 60px auto;
+	margin: auto;
 
 }
 
