@@ -2,11 +2,12 @@
 
 #HistorySection{
 	margin: 0px auto;
-	width: 1280px;
-	height: 700px;
+	/*width: 1280px;
+	height: 700px;*/
 	float: none;
 	border-right: 1px solid rgba(255, 255, 255, 0.50);
 	border-left: 1px solid rgba(255, 255, 255, 0.50);
+	background-color: none;
 }
 
 #ZooHistory p{
@@ -22,7 +23,7 @@
 	margin: 20px 70px;
 	float: left;
 
-		/* glow container: */
+	/* glow container: */
 	background: rgba(60,249,255,0.14);
 	/* Sketch doesnt export pattern fills at this point */
 	border: 2px solid rgba(60,249,255,0.45);
@@ -45,7 +46,7 @@
 
 #HamingjaSection{
 	margin: 0px auto;
-	width: 1280px;
+	/*width: 1280px;*/
 	min-height: 800px;
 	float: none;
 	border-right: 1px solid rgba(255, 255, 255, 0.50);

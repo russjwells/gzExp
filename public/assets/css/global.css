@@ -32,7 +32,11 @@ h2{
 p{
 	/*float: left;*/
 }
-
+.expanded{
+	height: 48px;
+	width: 100%;
+	float: left;
+}
 .content{
 	min-height: 500px;
 	/*padding-top: 20px;*/

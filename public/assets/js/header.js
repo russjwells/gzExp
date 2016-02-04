@@ -4,8 +4,10 @@ $(document).ready(function () {
 	        var scrollBottom = $(window).height();
 	        if (scroll >= 120) {
 	        	$("#navMark").addClass('fixedNav');
+	        	$("#fixedHeaderExpander").addClass('expanded');
 	        } else {
 	        	$("#navMark").removeClass('fixedNav');
+	        	$("#fixedHeaderExpander").removeClass('expanded');
 	        }
 	        if(scroll >= scrollBottom){
 	        	//alert("scrollBottom");
