@@ -1,24 +1,22 @@
-app.directive('resize', function ($window) {
-    return function (scope, element) {
-        var w = angular.element($window);
-        scope.getWindowDimensions = function () {
-            return { 'h': w.height(), 'w': w.width() };
-        };
-        scope.$watch(scope.getWindowDimensions, function (newValue, oldValue) {
-            scope.windowHeight = newValue.h;
-            scope.windowWidth = newValue.w;
-
-            scope.style = function () {
-                return { 
-                    'height': (newValue.h - 100) + 'px',
-                    'width': (newValue.w - 100) + 'px' 
-                };
-            };
-
-        }, true);
-
-        w.bind('resize', function () {
-            scope.$apply();
-        });
-    }
-})
+app.directive('autoresize', function($window) {  
+  return function($scope) {  
+   $scope.initializeWindowSize = function() {  
+    $scope.maxHeight = Math.max(  
+     document.body.scrollHeight, document.documentElement.scrollHeight,  
+     document.body.offsetHeight, document.documentElement.offsetHeight,  
+     document.body.clientHeight, document.documentElement.clientHeight,  
+     window.innerHeight  
+    );  
+    $scope.windowHeight = $window.innerHeight;  
+    return $scope.windowWidth = $window.innerWidth;  
+   };  
+   $scope.initializeWindowSize();  
+   $scope.$watch('__height', function(newHeight, oldHeight) {  
+    $scope.initializeWindowSize();  
+   });  
+   return angular.element($window).bind('resize', function() {  
+    $scope.initializeWindowSize();  
+    return $scope.$apply();  
+   });  
+  };  
+ });
