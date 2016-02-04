@@ -1,9 +1,9 @@
 @charset UTF-8;
 
 #yggMain{
-	width: 1280px;
+	/*width: 1280px;*/
 	margin: 0 auto;
-	float: none;
+	float: left;
 	border-right: 1px solid rgba(255,255,255,0.50);
 	border-left: 1px solid rgba(255,255,255,0.50);
 }
@@ -12,11 +12,12 @@
 	background-image: url("../img/yggdrasil/ygg.png");
 	/*float: left;*/
 	clear: both;
-	width: 800px;
-	height: 450px;
+	width: 450px;
+	height: 380px;
+	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
-	background-repeat: none;
+	
 }
 
 
@@ -42,7 +43,9 @@
 	background: rgba(60,249,255,0.04);
 	border: 2px solid rgba(60,249,255,0.2);
 }
-
+h1{
+	margin-bottom: 0px;
+}
 h2{
 	font-size: 30px;
 }
@@ -63,7 +66,6 @@ h2{
 	-webkit-border-radius: 35px 35px 35px 35px;
 }
 #yggDescription{
-	padding: 30px;
 	width: 60%;
 	margin: 0 auto;
 	clear: both;
