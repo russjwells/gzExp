@@ -158,5 +158,6 @@ p a:active{
     bottom: 0;
 }
 .metalBarUnstuck{
-	position: inherit;
+	position: relative;
+	z-index: 10;
 }
