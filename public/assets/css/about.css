@@ -8,6 +8,10 @@
 	border-right: 1px solid rgba(255, 255, 255, 0.50);
 	border-left: 1px solid rgba(255, 255, 255, 0.50);
 	background-color: none;
+
+	border-color: #3D9299;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }
 
 #ZooHistory p{
