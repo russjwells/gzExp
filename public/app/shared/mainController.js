@@ -3,5 +3,6 @@ app.controller('MainCtrl', [
 function($scope){
 
   $scope.test = "Main World";
+  $scope.activeMenu = 'about';
 
 }]);

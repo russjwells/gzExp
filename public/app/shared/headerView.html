@@ -4,10 +4,18 @@
 <nav id="navMark">
 	<div id="responsiveNav">
 		<div></div>
-		<a ui-sref="root.main.about"><div class="navButton navOn">ABOUT THE ZOO</div></a>
-		<a ui-sref="root.main.yggdrasil.ship"><div class="navButton">YGGDRASIL</div></a>
-		<a ui-sref="root.main.journeylogs"><div class="navButton">JOURNEY LOGS</div></a>
-		<a ui-sref="#"><div class="navButton">SHOP THE ZOO</div></a>
+		<a ui-sref="root.main.about" ng-click="activeMenu = 'about'">
+			<div class="navButton" ng-class="{active : activeMenu === 'about'}">ABOUT THE ZOO</div>
+		</a>
+		<a ui-sref="root.main.yggdrasil.ship" ng-click="activeMenu = 'yggdrasil'">
+			<div class="navButton" ng-class="{active : activeMenu === 'yggdrasil'}">YGGDRASIL</div>
+		</a>
+		<a ui-sref="root.main.journeylogs" ng-click="activeMenu = 'journeylogs'">
+			<div class="navButton" ng-class="{active : activeMenu === 'journeylogs'}">JOURNEY LOGS</div>
+		</a>
+		<a ui-sref="#" ng-click="activeMenu = 'shop'">
+			<div class="navButton" ng-class="{active : activeMenu === 'shop'}">SHOP THE ZOO</div>
+		</a>
 		<div></div>
 	</div>
 </nav>
