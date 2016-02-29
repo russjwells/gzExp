@@ -1,7 +1,9 @@
 $(document).ready(function () {
+
+		$(".metalBar").addClass('fixedLowerBar');
 	    $(window).scroll(function() {
 	        var scroll = $(window).scrollTop();
-	        var scrollBottom = $(window).height();
+	        var scrollBottom = $(document).height()-$("footer").height();
 	        if (scroll >= 120) {
 	        	$("#navMark").addClass('fixedNav');
 	        	$("#fixedHeaderExpander").addClass('expanded');
@@ -10,9 +12,8 @@ $(document).ready(function () {
 	        	$("#fixedHeaderExpander").removeClass('expanded');
 	        }
 	        if(scroll >= scrollBottom){
-	        	//alert("scrollBottom");
+	        	alert("scrollBottom");
+	        	$(".metalBar").removeClass('fixedLowerBar');
 	        }
 	    });
-
-
 });

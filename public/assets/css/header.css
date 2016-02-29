@@ -1,0 +1,72 @@
+header{
+	float: left;
+	background-image: url(../img/g/spacebackground2.png);
+	background-position: bottom;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+nav{
+	float: left;
+	background-image: url(../img/g/topbar.png);
+	background-repeat: repeat-x;
+	background-position: center center;
+	width: 100%;
+	height: 82px;
+	margin-top: -16px;
+	margin-bottom: -16px;
+	z-index: 10;
+
+	/*-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);*/
+}
+.fixedNav{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#responsiveNav{
+	max-width: 1220px;
+	min-width: 640px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.navButton{
+	width: 255px;
+	height: 82px;
+	color: #549EA5;
+	text-align: center;
+	font-family: "myriad-pro", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	background-image: url(../img/g/navbtn_off.png);
+	background-size: 255px 82px;
+	float: left;
+	line-height: 82px;
+	z-index: 20;
+
+}
+.navButton:hover{
+	width: 255px;
+	height: 82px;
+	color: #5FE2EE;
+	text-align: center;
+	font-family: "myriad-pro";
+	font-size: 22px;
+	font-weight: 700;
+	background-image: url(../img/g/navbtn_hover.png);
+	float: left;
+	line-height: 82px;
+	cursor: pointer;
+	z-index: 20;
+}
+.navOn{
+	color: #5FE2EE;
+	background-image: url(../img/g/navbtn_on.png);
+	background-size: 255px 82px;
+}
