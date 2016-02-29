@@ -93,7 +93,23 @@ p{
 	bottom: 0;
 	left: 0;
 }
+#leftBar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	/*height: 100%;*/
+	width: 142px;
+	z-index: 5;
+	background: rgba(100,243,255,0.20);
+	box-shadow: 3px 0px 0px 0px #3D9299;
 
+}
+.leftBarSpacer{
+	width: 142px;
+	float: left;
+	height: 100%;
+}
 
 
 
