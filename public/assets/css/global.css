@@ -104,12 +104,32 @@ p{
 	z-index: 5;
 	background: rgba(100,243,255,0.20);
 	box-shadow: 3px 0px 0px 0px #3D9299;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 
 }
 .leftBarSpacer{
 	width: 142px;
 	float: left;
 	height: 100%;
+}
+.leftItem{
+	width: 100%;
+	height: 50px;
+}
+.leftItemIcon{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	margin: 0 auto;
+}
+.leftItemLabel{
+	height: 20px;
+	color: white;
+	width: 100%;
+	line-height: 20px;
+	text-align: center;
 }
 
 
