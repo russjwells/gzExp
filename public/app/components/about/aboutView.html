@@ -1,18 +1,24 @@
 <div id="leftBar">
-	<div class="leftItem">
-		<div class="leftItemIcon"></div>
-		<div class="leftItemLabel">History</div>
-	</div>
-	<div class="leftItem">
-		<div class="leftItemIcon"></div>
-		<div class="leftItemLabel">Hamingja</div>
-	</div>
-	<div class="leftItem">
-		<div class="leftItemIcon"></div>
-		<div class="leftItemLabel">Mission</div>
-	</div>
+	<a ng-click="gotoHistory()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">History</div>
+		</div>
+	</a>
+	<a ng-click="gotoHamingja()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Hamingja</div>
+		</div>
+	</a>
+	<a ng-click="gotoMission()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Mission</div>
+		</div>
+	</a>
 </div>
-<div class="content" id="HistorySection" autoresize ng-style="{ height:windowHeight }">
+<div class="content" id="HistorySection" auto-scroll-to="HistorySection" autoresize ng-style="{ height:windowHeight }">
 			<div id="fixedHeaderExpander"></div>
 			<div class="chunkContentHolder">
 				<div class="leftBarSpacer"></div>

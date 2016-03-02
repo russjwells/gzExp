@@ -21,7 +21,7 @@ $(document).ready(function () {
 	        }else{
 	        	$(".metalBar").removeClass('metalBarUnstuck');
 	        }
-	        console.log("Scroll: "+ scroll+", Bottom:, "+ bottomEdge + ", footerStart: "+ footerPosition);
+	        //console.log("Scroll: "+ scroll+", Bottom:, "+ bottomEdge + ", footerStart: "+ footerPosition);
 
 	    });
 });

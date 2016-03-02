@@ -96,7 +96,7 @@ p{
 }
 #leftBar{
 	position: fixed;
-	left: 0;
+	left: 20;
 	top: 0;
 	bottom: 0;
 	/*height: 100%;*/
