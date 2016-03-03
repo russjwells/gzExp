@@ -103,7 +103,7 @@ p{
 	width: 142px;
 	z-index: 5;
 	background: rgba(100,243,255,0.20);
-	box-shadow: 3px 0px 0px 0px #3D9299;
+	box-shadow: 3px 3px 0px 0px #3D9299;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -131,8 +131,16 @@ p{
 	line-height: 20px;
 	text-align: center;
 }
+.chuckContentHolder{
+	float: left;
+}
+.sectionContent{
+	float: left;
+}
 
-
+a:hover{
+	cursor: pointer;
+}
 
 p a:link{
 	color: #2B9EC4;

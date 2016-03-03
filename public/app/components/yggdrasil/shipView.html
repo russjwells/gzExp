@@ -1,5 +1,19 @@
-<div id="yggMain" class="content" autoresize ng-style="{ height:windowHeight }">
-	<div id="fixedHeaderExpander"></div>
+<div id="leftBar">
+	<a ng-click="gotoShip()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Ship</div>
+		</div>
+	</a>
+	<a ng-click="gotoFeatures()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Features</div>
+		</div>
+	</a>
+</div>
+<div id="yggMain" class="content" auto-scroll-to="yggMain" autoresize  ng-style="{ height:windowHeight }">
+	<!--<div id="fixedHeaderExpander"></div>-->
 	<h1>Yggdrasil</h1>
 	<div id="yggpic">
 		<div id="yggCaption">
@@ -7,7 +21,7 @@
 				NORSE CLASS GZ-RH
 			</div>
 			<div class="captionCopy">
-				Interstellar research vessel equipped with time-folding, deep-space travel drive and gravity projecting engines.
+				Interstellar research vessel equipped with time-folding, deep-space travel drive and gravity projecting engines. {{test}}
 			</div>
 		</div>
 	</div>
