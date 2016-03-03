@@ -1,12 +1,10 @@
 @charset UTF-8;
-
 html{
 	/*background-color: red;*/
 	color: white;
 	font-family: "myriad-pro", sans-serif;
 	background-image: url(../img/g/starfield.png);
 }
-
 h1{
 	font-size: 42px;
 	color: #FFFDF8;
@@ -17,12 +15,10 @@ h1{
 	/*float: left;*/
 	/*width: 100%;*/
 }
-
 h2{
 	font-weight: 400;
 	text-align: center;
 }
-
 p{
 	/*float: left;*/
 }
@@ -32,26 +28,10 @@ p{
 	float: left;
 	width: 100%;
 }
-
 .expanded{
 	height: 48px;
 	width: 100%;
 	float: left;
-}
-
-.content{
-	min-height: 500px;
-	/*padding-top: 20px;*/
-	/*background-image: url(../img/starfield.png);
-	background-repeat: repeat-y;*/
-	float: left;
-	width: 100%;
-	/*clear: both;*/
-	/*margin-top: -14px;*/
-	/*background-attachment: fixed;
-	overflow: hidden;*/
-	z-index: -12;
-	background-color: rgba(0,0,0,0.7);
 }
 
 .captionTitle{
@@ -70,12 +50,10 @@ p{
 	font-weight: 400;
 	font-size: 14px;
 }
-
 #siteTitle{
 	margin: 20 auto;
 	width: 600px;
 }
-
 .dictionary{
 	color: #2B9EC4;
 }
@@ -83,12 +61,10 @@ p{
 	color: #2B9EC4;
 	text-decoration: underline;
 }
-
 .gzline{
 	color: #3D9299;
 	background-color: #3D9299;
 }
-
 .fixedLowerBar{
 	position: fixed;
 	bottom: 0;
@@ -109,10 +85,25 @@ p{
 	justify-content: space-around;
 
 }
-.leftBarSpacer{
-	width: 142px;
+.content{
+	min-height: 500px;
 	float: left;
+	width: 100%;
+	z-index: -12;
+	background-color: rgba(0,0,0,0.7);
+}
+.leftBarSpacer{
+	background-color: orange;
 	height: 100%;
+	width: 142px;
+	flex: none;
+}
+.rightDisplayArea{
+	background-color: red;
+	height: 100%;
+	display: flex;
+	flex: auto;
+	
 }
 .leftItem{
 	width: 100%;

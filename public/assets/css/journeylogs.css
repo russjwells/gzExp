@@ -1,3 +1,12 @@
 #journeySelect{
+	display: -ms-flex;
+	display: -webkit-flex;
 	display: flex;
+	flex-direction: row;
+}
+.flex-container-m{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
 }
