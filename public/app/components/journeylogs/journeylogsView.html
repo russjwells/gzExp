@@ -1,12 +1,32 @@
-<div id="journeySelect" class="content" auto-scroll-to="journeySelect" autoresize ng-style="{ height:windowHeight }">
+<div id="leftBar">
+	<a ng-click="gotoPrioria()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Prioria</div>
+		</div>
+	</a>
+	<a ng-click="gotoAlsaMar()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Alsa Mar</div>
+		</div>
+	</a>
+	<a ng-click="gotoSavarusTriad()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Savarus Triad</div>
+		</div>
+	</a>
+</div>
+<div id="Prioria" class="content" auto-scroll-to="Prioria" autoresize ng-style="{ height:windowHeight }">
 	<div class="leftBarSpacer"></div>
 	<div class="rightDisplayArea"></div>
 </div>
-<div class="content flex-container-m" autoresize ng-style="{ height:windowHeight }">
+<div id="AlsaMar" class="content flex-container-m" autoresize ng-style="{ height:windowHeight }">
 	<div class="leftBarSpacer"></div>
 	<div class="rightDisplayArea"></div>
 </div>
-<div class="content flex-container-m" autoresize ng-style="{ height:windowHeight }">
+<div id="SavarusTriad" class="content flex-container-m" autoresize ng-style="{ height:windowHeight }">
 	<div class="leftBarSpacer"></div>
 	<div class="rightDisplayArea"></div>
 </div>
