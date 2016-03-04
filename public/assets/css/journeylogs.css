@@ -20,25 +20,71 @@
 	width: 400px;
 	height: 100%;
 	flex: none;
-	background-color: blue;
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
 }
 .planetThumbnail{
 	width: 400px;
 	height: 400px;
-	background-image: url();
+	background-image: url("../img/journeylogs/alsamar.jpg");
+	background-size: cover;
 }
 .journeyData{
 	flex: auto;
-	background-color: green;
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 30px;
+}
+.journeyTitle{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+.journeySubtitle{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.journeyDescription{
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+.journeyLocation{
+	text-transform: capitalize;
+
 }
 .journeySelectionArea{
-	width: 100px;
+	width: 191px;
 	height: 100%;
 	flex: none;
-	background-color: purple;
+	
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 0 30px;
 }
 .journeySelectionArrow{
 	width: 131px;
 	height: 131px;
 	background-image: url("../img/journeylogs/journeySelectionArrow.png");
+	
 }
