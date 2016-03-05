@@ -6,6 +6,12 @@
 	display: flex;
 	flex-direction: row;
 }
+.flex-container-v{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
 .flex-center-child{
 	display: -ms-flexbox;
 	display: -webkit-flex;
