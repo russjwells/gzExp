@@ -1,4 +1,22 @@
 @charset UTF-8;
+
+.flex-container-m{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+}
+.flex-center-child{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
 html{
 	/*background-color: red;*/
 	color: white;
@@ -121,9 +139,6 @@ p{
 	text-align: center;
 }
 .chuckContentHolder{
-	float: left;
-}
-.sectionContent{
 	float: left;
 }
 

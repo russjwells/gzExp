@@ -35,7 +35,24 @@
 	-moz-border-radius: 35px 35px 35px 35px;
 	-webkit-border-radius: 35px 35px 35px 35px;
 }
-
+#historyHolder{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+#smallHamingjaHolder{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
 #LittleHamingja{
 	float: left;
 	padding: 20px;
@@ -55,13 +72,11 @@
 	border-right: 1px solid rgba(255, 255, 255, 0.50);
 	border-left: 1px solid rgba(255, 255, 255, 0.50);
 }
-
 #ExploreHamingja{
-	width: 1280px;
-	height: 641px;
+	width: 1200px;
+	height: 551px;
 	/*margin: 60px auto;*/
 }
-
 #ExploreHamingja img{
 	max-width: 640;
     height: 640;
@@ -69,13 +84,19 @@
     float: left;
     margin: 0px auto;
 }
+#planetCanvasHolder{
+	float: left;
+}
+#planetDetailHolder{
+	float: left;
+}
 #ExploreHamingjaInfoDisplay{
 	float: left;
     background: rgba(60,249,255,0.14);
     border: 2px solid rgba(60,249,255,0.45);
     padding: 20px;
     padding-left: 330px;
-    width: 500px;
+    width: 421px;
     margin-left: -300px;
     line-height: 24px;
 
@@ -93,16 +114,29 @@
 	border-top-style: solid;
 }
 #MissionHolder{
+	width: 1200px;
+}
+#MissionBanner{
+	width: 500px;
+	height: 151px;
+	background-image: url("../img/about/missionbanner.png");
+	background-size: cover;
+	margin: 0 auto -20;
+	position: relative;
+	z-index: 2;
+}
+#MissionText{
 	background: rgba(0,0,0,0.7);
-	width: 40%;
-	margin: 60px auto;
-	padding: 40px;
-	margin: 100px auto;
+	width: 650px;
+	padding: 30px;
 	line-height: 26px;
 	border-radius: 30px 30px 30px 30px;
 	-moz-border-radius: 30px 30px 30px 30px;
 	-webkit-border-radius: 30px 30px 30px 30px;
 	border: 2px solid #3D9299;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
 }
 /*canvas, img { 
 	display:block; 
