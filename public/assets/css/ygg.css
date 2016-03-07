@@ -4,12 +4,10 @@
 	/*width: 1280px;*/
 	margin: 0 auto;
 	float: left;
-	border-right: 1px solid rgba(255,255,255,0.50);
-	border-left: 1px solid rgba(255,255,255,0.50);
 }
 #yggpic{
 	margin: 0px auto;
-	background-image: url("../img/yggdrasil/ygg.png");
+	background-image: url("../img/yggdrasil/yggdrasil.jpg");
 	/*float: left;*/
 	width: 100%;
 	height: 60%;
@@ -66,6 +64,13 @@ h2{
 	-moz-border-radius: 35px 35px 35px 35px;
 	-webkit-border-radius: 35px 35px 35px 35px;
 }
+#yggTitle{
+	text-transform: uppercase;
+	width: 800px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 400px;
+}
 #yggDescription{
 	width: 800px;
 	margin: 0 auto;
@@ -77,13 +82,14 @@ h2{
 	width: 240px;
 	position: relative;
 	top: 320px;
-	left: 830px;
+	left: 201px;
 }
 .ymiText{
 	width: 200px;
 	float: left;
 	height: 100%;
 	font-family: "myriad-pro", sans-serif;
+	color: white;
 }
 .ymiTitle{
 	width: 100%;
@@ -110,6 +116,32 @@ h2{
 }
 .ymiPics li{
 	float: left;
+}
+/*capabilities*/
+.imageCarosel{
+	width: 100%;
+	height: 50%;
+	justify-content: space-around; 
+}
+.capDesc{
+	width: 100%;
+	height: 50%;
+}
+.capDescText{
+	padding: 30px;
+	line-height: 24px;
+}
+.capDesText section{
+	width: 25%;
+}
+.capDescTitle{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.caroselImage{
+	width: 300px;
+	height: 425px;
+	background-color: green;
 }
 .ymiRightArrow{
 	width: 55px;

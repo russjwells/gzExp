@@ -6,6 +6,13 @@
 	display: flex;
 	flex-direction: row;
 }
+.flex-container-mb{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .flex-container-v{
 	display: -ms-flex;
 	display: -webkit-flex;
@@ -17,7 +24,7 @@
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around; 
+	justify-content: space-around;
 }
 .flex-center-child{
 	display: -ms-flexbox;
