@@ -12,14 +12,14 @@
 	background-image: url("../img/yggdrasil/ygg.png");
 	/*float: left;*/
 	width: 100%;
-	height: 50%;
+	height: 60%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
 }
 #yggText{
 	width: 100%;
-	height: 50%;
+	height: 40%;
 }
 
 #yggMenu{
@@ -74,10 +74,10 @@ h2{
     margin-bottom: 30px;
 }
 #yggCaption{
-	width: 30%;
+	width: 240px;
 	position: relative;
 	top: 320px;
-	left: 600px;
+	left: 830px;
 }
 .ymiText{
 	width: 200px;
