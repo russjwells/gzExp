@@ -38,7 +38,6 @@
 }
 
 html{
-	/*background-color: red;*/
 	color: white;
 	font-family: "myriad-pro", sans-serif;
 	background-image: url(../img/g/starfield.png);
@@ -71,7 +70,6 @@ p{
 	width: 100%;
 	float: left;
 }
-
 .captionTitle{
 	text-align: right;
 	float: left;
@@ -128,7 +126,7 @@ p{
 	float: left;
 	width: 100%;
 	z-index: -12;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.5);
 }
 .leftBarSpacer{
 	height: 100%;
