@@ -80,9 +80,35 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
 	    	controller: 'AquaticHoldingTankCtrl'
 	    })
 	    .state('root.main.journeylogs', {
+	    	abstract: true,
 	    	url: '/journeylogs',
 	    	templateUrl: 'app/components/journeylogs/journeylogsView.html',
 	    	controller: 'JourneyLogsCtrl'
+	    })
+	    .state('root.main.journeylogs.journeymenu', {
+	    	url: '',
+	    	templateUrl: 'app/components/journeylogs/journeymenuView.html',
+	    	controller: 'JourneyLogsCtrl'
+	    })
+	    .state('root.main.journeylogs.prioria', {
+	    	url: '/prioria',
+	    	templateUrl: 'app/components/journeylogs/prioria/prioriaView.html',
+	    	controller: 'PrioriaCtrl'
+	    })
+	    .state('root.main.journeylogs.alsamar', {
+	    	url: '/alsamar',
+	    	templateUrl: 'app/components/journeylogs/alsamar/alsamarView.html',
+	    	controller: 'AlsaMarCtrl'
+	    })
+	    .state('root.main.journeylogs.savarustriad', {
+	    	url: '/savarustriad',
+	    	templateUrl: 'app/components/journeylogs/savarustriad/savarustriadView.html',
+	    	controller: 'SavarusTriadCtrl'
+	    })
+	    .state('root.main.shop', {
+	    	url: '/shop',
+	    	templateUrl: 'app/components/shop/shopView.html',
+	    	controller: 'ShopCtrl'
 	    })
 	    .state('root.login', {
 	    	url: '/login',
