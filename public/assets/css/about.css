@@ -103,6 +103,9 @@
     border-radius: 35px 35px 35px 35px;
 	-moz-border-radius: 35px 35px 35px 35px;
 	-webkit-border-radius: 35px 35px 35px 35px;
+
+	z-index: -5;
+	position: relative;
 }
 #MissionSection{
 	background-image: url("../img/about/zooentrance.png");

@@ -24,10 +24,19 @@
 	width: 100%;
 	float: left;
 }
+#capabilities{
+	background-image: url("../img/yggdrasil/capabilities.png") !important;
+}
+#deckplans{
+	background-image: url("../img/yggdrasil/deckplans.png") !important;
+}
+#interiors{
+	background-image: url("../img/yggdrasil/interiors.png") !important;
+}
 .yggMenuItem{
-	width: 800px;
+	width: 884px;
+	height: 182px;
 	clear: both;
-	height: 132px;
 	margin: 30px auto;
 }
 .yggMenuItem a:link, .yggMenuItem  a:active, .yggMenuItem a:visited, .yggMenuItem a:hover{

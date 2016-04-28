@@ -6,7 +6,7 @@ function($scope, $location, $anchorScroll){
 
   $scope.test = "Journey Logs World";
     $scope.gotoPrioria = function() {
-  	$location.hash('Prioria');
+  	$location.hash('Prioria');   
   	$anchorScroll();
   };
   $scope.gotoAlsaMar = function() {
