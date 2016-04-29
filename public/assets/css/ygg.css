@@ -45,11 +45,11 @@
 }
 .glow:hover{
 	background: rgba(60,249,255,0.14);
-	border: 2px solid rgba(60,249,255,0.45);
+	/*border: 2px solid rgba(60,249,255,0.45);*/
 }
 .glow{
 	background: rgba(60,249,255,0.04);
-	border: 2px solid rgba(60,249,255,0.2);
+	/*border: 2px solid rgba(60,249,255,0.2);*/
 }
 h1{
 	margin-bottom: 0px;

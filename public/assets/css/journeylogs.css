@@ -27,8 +27,16 @@
 .planetThumbnail{
 	width: 400px;
 	height: 400px;
-	background-image: url("../img/journeylogs/alsamar.jpg");
 	background-size: cover;
+}
+#alsamar_t{
+	background-image: url("../img/journeylogs/alsamar.jpg");
+}
+#prioria_t{
+	background-image: url("../img/journeylogs/prioria.png");
+}
+#savarus_t{
+	background-image: url("../img/journeylogs/savarus.png");
 }
 .journeyData{
 	flex: auto;
