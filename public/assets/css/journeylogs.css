@@ -173,6 +173,46 @@
 #tuskin{
 	background-image: url("../img/journeylogs/alsamar/aliens/tuskin.png");
 }
+
+.savarusDisplayArea{
+	background-image: url("../img/journeylogs/savarus/savarustriad.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.savarusAliensArea{
+
+}
+#acoustok{
+	background-image: url("../img/journeylogs/savarus/aliens/acoustok.png");
+}
+#aquona{
+	background-image: url("../img/journeylogs/savarus/aliens/aquona.png");
+}
+#direraus{
+	background-image: url("../img/journeylogs/savarus/aliens/direraus.png");
+}
+#grommel{
+	background-image: url("../img/journeylogs/savarus/aliens/grommel.png");
+}
+#leviathus{
+	background-image: url("../img/journeylogs/savarus/aliens/leviathus.png");
+}
+#nhakootah{
+	background-image: url("../img/journeylogs/savarus/aliens/nhakootah.png");
+}
+#shaax{
+	background-image: url("../img/journeylogs/savarus/aliens/shaax.png");
+}
+#tharo{
+	background-image: url("../img/journeylogs/savarus/aliens/tharo.png");
+}
+#usys{
+	background-image: url("../img/journeylogs/savarus/aliens/usys.png");
+}
+
+
 .alienpic{
 	background-size: contain;
 	background-repeat: no-repeat;

@@ -4,17 +4,17 @@ app.controller('SavarusTriadCtrl', [
 '$anchorScroll',
 function($scope, $location, $anchorScroll){
 
-  $scope.test = "Journey Logs World";
-    $scope.gotoPrioria = function() {
-  	$location.hash('Prioria');
-  	$anchorScroll();
+  $scope.test = "Alsa Mar World";
+    $scope.gotoSavarusPlanetOverview = function() {
+    $location.hash('AlsaMarPlanetOverview');
+    $anchorScroll();
   };
-  $scope.gotoAlsaMar = function() {
-  	$location.hash('AlsaMar');
-  	$anchorScroll();
+  $scope.gotoSavarusLocalAliens = function() {
+    $location.hash('SavarusLocalAliens');
+    $anchorScroll();
   };
-  $scope.gotoSavarusTriad = function() {
-  	$location.hash('SavarusTriad');
-  	$anchorScroll();
+  $scope.gotoSavarusSolarSystem = function() {
+    $location.hash('SavarusSolarSystem');
+    $anchorScroll();
   };
 }]);

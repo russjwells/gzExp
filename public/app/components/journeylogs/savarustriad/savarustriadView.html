@@ -1,25 +1,45 @@
 <div id="leftBar">
-	<a ng-click="gotoPrioria()">
-		<div class="leftItem">
-			<div class="leftItemIcon"></div>
-			<div class="leftItemLabel">Prioria</div>
-		</div>
-	</a>
-	<a ng-click="gotoAlsaMar()">
+	<a ng-click="gotoSavarusPlanetOverview()">
 		<div class="leftItem">
 			<div class="leftItemIcon"></div>
 			<div class="leftItemLabel">Alsa Mar</div>
 		</div>
 	</a>
-	<a ng-click="gotoSavarusTriad()">
+	<a ng-click="gotoSavarusLocalAliens()">
 		<div class="leftItem">
 			<div class="leftItemIcon"></div>
-			<div class="leftItemLabel">Savarus Triad</div>
+			<div class="leftItemLabel">Local Aliens</div>
+		</div>
+	</a>
+	<a ng-click="gotoSavarusSolarSystem()">
+		<div class="leftItem">
+			<div class="leftItemIcon"></div>
+			<div class="leftItemLabel">Solar System</div>
 		</div>
 	</a>
 </div>
-<div id="PrioriaMain" class="content" autoresize ng-style="{ height:windowHeight }">
+<div id="SavarusPlanetOverview" class="content" autoresize ng-style="{ height:windowHeight }">
 	<div class="leftBarSpacer"></div>
-	<div class="rightDisplayArea">
+	<div class="rightDisplayArea savarusDisplayArea">
+		
+	</div>
+</div>
+<div id="SavarusLocalAliens" class="content" autoresize ng-style="{ height:windowHeight }">
+	<div class="leftBarSpacer"></div>
+	<div class="rightDisplayArea savarusAliensArea">
+		<div class="alienpic" id="acoustok"></div>
+		<div class="alienpic" id="aquona"></div>
+		<div class="alienpic" id="direraus"></div>
+		<div class="alienpic" id="grommel"></div>
+		<div class="alienpic" id="leviathus"></div>
+		<div class="alienpic" id="nhakootah"></div>
+		<div class="alienpic" id="shaax"></div>
+		<div class="alienpic" id="tharo"></div>
+		<div class="alienpic" id="usys"></div>
+	</div>
+</div>
+<div id="SavarusSolarSystem" class="content" autoresize ng-style="{ height:windowHeight }">
+	<div class="leftBarSpacer"></div>
+	<div class="rightDisplayArea ">
 	</div>
 </div>
