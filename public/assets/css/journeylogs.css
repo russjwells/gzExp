@@ -133,14 +133,45 @@
 	background-image: url("../img/journeylogs/prioria/aliens/wolvan.png");
 }
 
+.alsamarDisplayArea{
+	background-image: url("../img/journeylogs/alsamar/alsamar.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .alsamarAliensArea{
 
 }
-#cryse{
-	background-image: url("../img/journeylogs/prioria/aliens/cryse.png");
+#abyssbat{
+	background-image: url("../img/journeylogs/alsamar/aliens/abyssbat.png");
 }
-#cryse{
-	background-image: url("../img/journeylogs/prioria/aliens/cryse.png");
+#amphibus{
+	background-image: url("../img/journeylogs/alsamar/aliens/amphibus.png");
+}
+#arak{
+	background-image: url("../img/journeylogs/alsamar/aliens/arak.png");
+}
+#basilisk{
+	background-image: url("../img/journeylogs/alsamar/aliens/basilisk.png");
+}
+#gerrant{
+	background-image: url("../img/journeylogs/alsamar/aliens/gerrant.png");
+}
+#navaras{
+	background-image: url("../img/journeylogs/alsamar/aliens/navaras.png");
+}
+#pastrelope{
+	background-image: url("../img/journeylogs/alsamar/aliens/pastrelope.png");
+}
+#quadranid{
+	background-image: url("../img/journeylogs/alsamar/aliens/quadranid.png");
+}
+#squinn{
+	background-image: url("../img/journeylogs/alsamar/aliens/squinn.png");
+}
+#tuskin{
+	background-image: url("../img/journeylogs/alsamar/aliens/tuskin.png");
 }
 .alienpic{
 	background-size: contain;
