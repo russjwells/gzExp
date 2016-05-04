@@ -33,6 +33,18 @@
 #interiors{
 	background-image: url("../img/yggdrasil/interiors.png") !important;
 }
+#FrontDeckPlan{
+	background-image: url("../img/yggdrasil/schematics/front_deckplan.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#ElevationDeckPlan{
+	background-image: url("../img/yggdrasil/schematics/elevation_deckplan.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .yggMenuItem{
 	width: 884px;
 	height: 182px;
