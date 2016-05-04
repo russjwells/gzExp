@@ -4,17 +4,17 @@ app.controller('PrioriaCtrl', [
 '$anchorScroll',
 function($scope, $location, $anchorScroll){
 
-  $scope.test = "Journey Logs World";
-    $scope.gotoPrioria = function() {
-  	$location.hash('Prioria');
+  $scope.test = "Prioria World";
+    $scope.gotoPrioriaPlanetOverview = function() {
+  	$location.hash('PrioriaPlanetOverview');
   	$anchorScroll();
   };
-  $scope.gotoAlsaMar = function() {
-  	$location.hash('AlsaMar');
+  $scope.gotoLocalAliens = function() {
+  	$location.hash('PrioriaLocalAliens');
   	$anchorScroll();
   };
-  $scope.gotoSavarusTriad = function() {
-  	$location.hash('SavarusTriad');
+  $scope.gotoSolarSystem = function() {
+  	$location.hash('PrioriaSolarSystem');
   	$anchorScroll();
   };
 }]);

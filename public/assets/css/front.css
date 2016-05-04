@@ -59,15 +59,15 @@
 	width: 77px;
 	height: 53px;
 	margin: auto;
-	bottom: 50px;
-	left:0;
-	right:0;
+	bottom: 90px;
+	left: 0;
+	right: 0;
 }
 #downArrow:hover{
 	width: 77px;
 	height: 53px;
 	margin: auto;
-	bottom: 50px;
+	bottom: 80px;
 	left:0;
 	right:0;
 }

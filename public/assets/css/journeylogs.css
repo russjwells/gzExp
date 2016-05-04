@@ -91,3 +91,53 @@
 	background-image: url("../img/journeylogs/journeyselectionarrow.png");
 	
 }
+
+.prioriaDisplayArea{
+	background-image: url("../img/journeylogs/prioria/prioria.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.prioriaAliensArea{
+
+}
+#cryse{
+	background-image: url("../img/journeylogs/prioria/aliens/cryse.png");
+}
+#glaac{
+	background-image: url("../img/journeylogs/prioria/aliens/glaac.png");
+}
+#immatoc{
+	background-image: url("../img/journeylogs/prioria/aliens/immatoc.png");
+}
+#jussoa{
+	background-image: url("../img/journeylogs/prioria/aliens/jussoa.png");
+}
+#lampreshark{
+	background-image: url("../img/journeylogs/prioria/aliens/lampreshark.png");
+}
+#mythroph{
+	background-image: url("../img/journeylogs/prioria/aliens/mythroph.png");
+}
+#osswegho{
+	background-image: url("../img/journeylogs/prioria/aliens/osswegho.png");
+}
+#therosmus{
+	background-image: url("../img/journeylogs/prioria/aliens/therosmus.png");
+}
+#ungulum{
+	background-image: url("../img/journeylogs/prioria/aliens/ungulum.png");
+}
+#wolvan{
+	background-image: url("../img/journeylogs/prioria/aliens/wolvan.png");
+}
+.alienpic{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 500px;
+}
+.prioriaSystemArea{
+
+}

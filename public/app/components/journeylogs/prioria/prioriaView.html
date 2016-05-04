@@ -1,25 +1,47 @@
 <div id="leftBar">
-	<a ng-click="gotoPrioria()">
+	<a ng-click="gotoPrioriaPlanetOverview()">
 		<div class="leftItem">
 			<div class="leftItemIcon"></div>
 			<div class="leftItemLabel">Prioria</div>
 		</div>
 	</a>
-	<a ng-click="gotoAlsaMar()">
+	<a ng-click="gotoLocalAliens()">
 		<div class="leftItem">
 			<div class="leftItemIcon"></div>
-			<div class="leftItemLabel">Alsa Mar</div>
+			<div class="leftItemLabel">Local Aliens</div>
 		</div>
 	</a>
-	<a ng-click="gotoSavarusTriad()">
+	<a ng-click="gotoSolarSystem()">
 		<div class="leftItem">
 			<div class="leftItemIcon"></div>
-			<div class="leftItemLabel">Savarus Triad</div>
+			<div class="leftItemLabel">Solar System</div>
 		</div>
 	</a>
 </div>
-<div id="PrioriaMain" class="content" autoresize ng-style="{ height:windowHeight }">
+<div id="PrioriaPlanetOverview" class="content" autoresize ng-style="{ height:windowHeight }">
 	<div class="leftBarSpacer"></div>
-	<div class="rightDisplayArea">
+	<div class="rightDisplayArea prioriaDisplayArea">
+		prioria
+	</div>
+</div>
+<div id="PrioriaLocalAliens" class="content" autoresize ng-style="{ height:windowHeight }">
+	<div class="leftBarSpacer"></div>
+	<div class="rightDisplayArea prioriaAliensArea">
+		<div class="alienpic" id="cryse"></div>
+		<div class="alienpic" id="glaac"></div>
+		<div class="alienpic" id="immatoc"></div>
+		<div class="alienpic" id="jussoa"></div>
+		<div class="alienpic" id="lampreshark"></div>
+		<div class="alienpic" id="mythroph"></div>
+		<div class="alienpic" id="osswegho"></div>
+		<div class="alienpic" id="therosums"></div>
+		<div class="alienpic" id="ungulum"></div>
+		<div class="alienpic" id="wolvan"></div>
+	</div>
+</div>
+<div id="PrioriaSolarSystem" class="content" autoresize ng-style="{ height:windowHeight }">
+	<div class="leftBarSpacer"></div>
+	<div class="rightDisplayArea prioriaSystemArea">
+		prioria system
 	</div>
 </div>

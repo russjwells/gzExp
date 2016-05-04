@@ -4,17 +4,17 @@ app.controller('AlsaMarCtrl', [
 '$anchorScroll',
 function($scope, $location, $anchorScroll){
 
-  $scope.test = "Journey Logs World";
-    $scope.gotoPrioria = function() {
-  	$location.hash('Prioria');
-  	$anchorScroll();
+  $scope.test = "Alsa Mar World";
+    $scope.gotoAlsaMarPlanetOverview = function() {
+    $location.hash('AlsaMarPlanetOverview');
+    $anchorScroll();
   };
-  $scope.gotoAlsaMar = function() {
-  	$location.hash('AlsaMar');
-  	$anchorScroll();
+  $scope.gotoLocalAliens = function() {
+    $location.hash('AlsaMarLocalAliens');
+    $anchorScroll();
   };
-  $scope.gotoSavarusTriad = function() {
-  	$location.hash('SavarusTriad');
-  	$anchorScroll();
+  $scope.gotoSolarSystem = function() {
+    $location.hash('AlsaMarSolarSystem');
+    $anchorScroll();
   };
 }]);

@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"interiors"
+			],
+			[
+				"cap",
+				"capabilities"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
 				"flex",
 				"flex-container-m"
 			],
@@ -14,10 +26,6 @@
 			[
 				"fle",
 				"flex-container-m"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"sp",
@@ -400,6 +408,14 @@
 			}
 		},
 		{
+			"file": "public/app/components/landing/landingView.html",
+			"settings":
+			{
+				"buffer_size": 1391,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "public/app/components/yggdrasil/interiors/interiorsView.html",
 			"settings":
 			{
@@ -419,7 +435,7 @@
 			"file": "public/app/components/yggdrasil/shipView.html",
 			"settings":
 			{
-				"buffer_size": 3109,
+				"buffer_size": 3254,
 				"line_ending": "Unix"
 			}
 		},
@@ -427,7 +443,7 @@
 			"file": "public/app/components/journeylogs/journeymenuView.html",
 			"settings":
 			{
-				"buffer_size": 4233,
+				"buffer_size": 4278,
 				"line_ending": "Unix"
 			}
 		},
@@ -444,14 +460,6 @@
 			"settings":
 			{
 				"buffer_size": 874,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/app/shared/mainView.html",
-			"settings":
-			{
-				"buffer_size": 141,
 				"line_ending": "Unix"
 			}
 		},
@@ -483,7 +491,7 @@
 			"file": "public/app/components/journeylogs/journeylogsController.js",
 			"settings":
 			{
-				"buffer_size": 448,
+				"buffer_size": 451,
 				"line_ending": "Unix"
 			}
 		},
@@ -499,7 +507,7 @@
 			"file": "public/assets/css/about.css",
 			"settings":
 			{
-				"buffer_size": 3058,
+				"buffer_size": 3094,
 				"line_ending": "Unix"
 			}
 		},
@@ -507,7 +515,7 @@
 			"file": "public/assets/css/ygg.css",
 			"settings":
 			{
-				"buffer_size": 2824,
+				"buffer_size": 3087,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,7 +523,7 @@
 			"file": "public/assets/css/journeylogs.css",
 			"settings":
 			{
-				"buffer_size": 1499,
+				"buffer_size": 1657,
 				"line_ending": "Unix"
 			}
 		},
@@ -576,6 +584,7 @@
 	},
 	"file_history":
 	[
+		"/Users/russ/Documents/Development/gzExp/public/app/shared/mainView.html",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/yggdrasilController.js",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/capabilities/capabilitiesController.js",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/schematics/schematicsController.js",
@@ -590,7 +599,6 @@
 		"/Users/russ/Documents/Development/gzExp/public/app/shared/autoscrolltoDirective.js",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/yggdrasil/interiors/observatory/observatoryView.html",
 		"/Users/russ/Documents/Development/gzExp/public/assets/js/fittedpages.js",
-		"/Users/russ/Documents/Development/gzExp/public/app/shared/mainView.html",
 		"/Users/russ/Documents/Development/gzExp/public/app/shared/rootView.html",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/journeylogs/journeylogsController.js",
 		"/Users/russ/Documents/Development/gzExp/public/app/components/about/aboutController.js",
@@ -730,8 +738,8 @@
 						"selection":
 						[
 							[
-								2312,
-								2312
+								836,
+								836
 							]
 						],
 						"settings":
@@ -739,8 +747,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 2.0,
-						"translation.y": 1249.0,
+						"translation.x": 0.0,
+						"translation.y": 478.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -748,7 +756,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -763,8 +771,8 @@
 						"selection":
 						[
 							[
-								378,
-								378
+								2824,
+								2824
 							]
 						],
 						"settings":
@@ -773,13 +781,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 580.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "public/app/components/landing/landingView.html",
+					"settings":
+					{
+						"buffer_size": 1391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1108,
+								1108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "public/app/components/yggdrasil/interiors/interiorsView.html",
 					"settings":
 					{
@@ -805,7 +840,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "public/app/components/about/aboutView.html",
 					"settings":
 					{
@@ -832,19 +867,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "public/app/components/yggdrasil/shipView.html",
 					"settings":
 					{
-						"buffer_size": 3109,
+						"buffer_size": 3254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								934,
-								934
+								2909,
+								2909
 							]
 						],
 						"settings":
@@ -853,40 +888,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 689.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public/app/components/journeylogs/journeymenuView.html",
-					"settings":
-					{
-						"buffer_size": 4233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3457,
-								3457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 928.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "public/app/components/journeylogs/journeymenuView.html",
+					"settings":
+					{
+						"buffer_size": 4278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4184,
+								4184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1032.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "public/app/shared/headerView.html",
 					"settings":
 					{
@@ -897,8 +932,8 @@
 						"selection":
 						[
 							[
-								536,
-								582
+								551,
+								551
 							]
 						],
 						"settings":
@@ -913,7 +948,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "public/app/shared/footerView.html",
 					"settings":
 					{
@@ -932,32 +967,6 @@
 						{
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "public/app/shared/mainView.html",
-					"settings":
-					{
-						"buffer_size": 141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1057,15 +1066,15 @@
 					"file": "public/app/components/journeylogs/journeylogsController.js",
 					"settings":
 					{
-						"buffer_size": 448,
+						"buffer_size": 451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								446,
+								446
 							]
 						],
 						"settings":
@@ -1083,7 +1092,7 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1118,15 +1127,15 @@
 					"file": "public/assets/css/about.css",
 					"settings":
 					{
-						"buffer_size": 3058,
+						"buffer_size": 3094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1778,
-								1778
+								2181,
+								2181
 							]
 						],
 						"settings":
@@ -1135,7 +1144,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1096.0,
+						"translation.y": 1273.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1145,15 +1154,15 @@
 					"file": "public/assets/css/ygg.css",
 					"settings":
 					{
-						"buffer_size": 2824,
+						"buffer_size": 3087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2160,
-								2160
+								1044,
+								1044
 							]
 						],
 						"settings":
@@ -1162,7 +1171,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1849.0,
+						"translation.y": 657.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1172,15 +1181,15 @@
 					"file": "public/assets/css/journeylogs.css",
 					"settings":
 					{
-						"buffer_size": 1499,
+						"buffer_size": 1657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								490,
+								490
 							]
 						],
 						"settings":
@@ -1189,7 +1198,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 343.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
